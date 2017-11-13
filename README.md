@@ -1,35 +1,37 @@
 # ClosestPair
 
-Running Time of the Algorithm
+### Running Time of the Algorithm
 
 Brute force was used to tackle this problem therefore code runs at O(n2) time.
 
-Limitations
+### Limitations
 
-•	Text files should contain 1 point per line.
-•	Coordinate values should be separated by a tabulator character.
-•	Coordinate values can be both integers and floating point numbers. For floating point values the decimal separator should be a period.
-Usage Instructions
+- Text files should contain 1 point per line.
+-	Coordinate values should be separated by a tabulator character.
+-	Coordinate values can be both integers and floating point numbers. For floating point values the decimal separator should be a period.
+
+### Usage Instructions
 
 To run the code from terminal 
 
 1)	Set class path 
 
-export CLASSPATH= path to folders
+`export CLASSPATH= path to folders`
 
 2)	Navigate to ClosestPoints folder
 3)	Generate class files
 
-javac *.java
+`javac *.java`
 
 4)	Run the code
 
-java ClosestPoints.Main
+`java ClosestPoints.Main`
 
 
 
 After running the code, program shows the following menu
 
+```
 Welcome
 1) Select input files.
 2) Run file by path.
@@ -37,10 +39,13 @@ Welcome
 4) Run test cases.
 0) Exit.
 
+```
+
 User can enter 
 
 1-	To select an input file from list
 
+```
 Please Select Input File:
 1) sample_input_100_100.tsv
 2) sample_input_10_100.tsv
@@ -51,11 +56,13 @@ Please Select Input File:
 7) test3.tsv
 8) test4.tsv
 0) Back 
+```
 
 Entering “0” goes back to previous menu and entering number on the left of the file name runs the program with the selected input file.
 
 After selecting the input file program displays the following output which contains information about time taken for reading input file, time taken for finding closest points and result. 
 
+```
 Reading file took 1 milliseconds 
 
 Result:
@@ -63,7 +70,7 @@ Point: lineNumber=40 ,with coordinates=[666271.5742697478, 527671.7910485603, 15
 Point: lineNumber=94 ,with coordinates=[969976.0, 293327.38285349007, 838906.508207679, 617179.0567598091, 491237.0, -236921.0, 416816.1974732606, -462136.77009611693, -782541.1487445169, 450974.14932926116]
 
 Operation took 1 ms 
-
+```
 
 2-	To run program by manually entering the path to input file.
 
