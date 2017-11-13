@@ -83,10 +83,10 @@ Successfully created test file.
 Generated files will be stored in InputFiles folder under test folder that can be accessed by entering 1 in the menu.
 
 4-	To run all of the previously generated test cases. Previously generated test files are:
-a.	Empty file
-b.	File with only 1 point
-c.	File with 2 points
-d.	File with points that don’t have same dimensions.
+-	Empty file
+-	File with only 1 point
+-	File with 2 points
+-	File with points that don’t have same dimensions.
 
 0-	To exit
 
